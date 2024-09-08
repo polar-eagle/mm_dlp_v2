@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AxisInfo>
+    <ZUP 轴ID号="0" 控制器IP="" 丝杆导程="" 执行模式="Mode_Profile_Pos" 最大限位="" 最小限位="" 原位坐标="" 是否开启限位="true" />
+	<ZDown 轴ID号="1" 控制器IP="" 丝杆导程="" 执行模式="Mode_Profile_Pos" 最大限位="" 最小限位="" 原位坐标="" 是否开启限位="true" />
+	<RMotor 轴ID号="2" 控制器IP="" 丝杆导程="" 执行模式="Mode_Profile_Pos" 最大限位="" 最小限位="" 原位坐标="" 是否开启限位="true" />
+</AxisInfo>

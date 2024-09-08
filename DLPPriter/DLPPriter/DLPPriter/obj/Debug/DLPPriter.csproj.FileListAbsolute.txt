@@ -1,0 +1,196 @@
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\DLPPriter.exe.config
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\DLPPriter.exe
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\DLPPriter.pdb
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\MotionCard.dll
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.dll
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\Newtonsoft.Json.dll
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.Extensions.dll
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\System.Memory.dll
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\System.Numerics.Vectors.dll
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\System.Buffers.dll
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.xml
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.Extensions.xml
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\System.Memory.xml
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\System.Numerics.Vectors.xml
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\bin\Debug\System.Buffers.xml
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.AssemblyReference.cache
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.SuggestedBindingRedirects.cache
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe.config
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.MainFrom.resources
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.Properties.Resources.resources
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionFrom.resources
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionStationControl.resources
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.GenerateResource.cache
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.CoreCompileInputs.cache
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.Up2Date
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.pdb
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.AutoFrom.resources
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.PictureShow.resources
+E:\奥斯塔图\3D打印\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.ProjectorFrom.resources
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\DLPPriter.exe.config
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\DLPPriter.exe
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\DLPPriter.pdb
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\Newtonsoft.Json.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.Extensions.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\System.Memory.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\System.Numerics.Vectors.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\System.Buffers.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.xml
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.Extensions.xml
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\System.Memory.xml
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\System.Numerics.Vectors.xml
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\System.Buffers.xml
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.AssemblyReference.cache
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.SuggestedBindingRedirects.cache
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe.config
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.MainFrom.resources
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.Properties.Resources.resources
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.AutoFrom.resources
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionFrom.resources
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionStationControl.resources
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.PictureShow.resources
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.ProjectorFrom.resources
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.GenerateResource.cache
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.CoreCompileInputs.cache
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.Up2Date
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe
+C:\程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.pdb
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\LibUsbDotNet.LibUsbDotNet.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\ApeFree.CodePlus.Algorithm.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\STTech.CodePlus.dll
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\3DProjector.pdb
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\3DProjector.dll.config
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\LibUsbDotNet.LibUsbDotNet.pdb
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\ApeFree.CodePlus.Algorithm.xml
+C:\程序\DLPPriter\DLPPriter\DLPPriter\bin\Debug\STTech.CodePlus.xml
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.AssemblyReference.cache
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.SuggestedBindingRedirects.cache
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe.config
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.MainFrom.resources
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.Properties.Resources.resources
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.AutoFrom.resources
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionFrom.resources
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionStationControl.resources
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.PictureShow.resources
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.ProjectorFrom.resources
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.GenerateResource.cache
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.CoreCompileInputs.cache
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe
+E:\奥斯塔图\3D打印\DLPPriter8-16最新程序\DLPPriter\DLPPriter\DLPPriter\obj\Debug\DLPPriter.pdb
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\DLPPriter.exe.config
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\DLPPriter.exe
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\DLPPriter.pdb
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\OpenCvSharp.dll
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\STTech.CodePlus.dll
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\Newtonsoft.Json.dll
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\OpenCvSharp.Extensions.dll
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\System.Memory.dll
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\System.Numerics.Vectors.dll
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\System.Buffers.dll
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\3DProjector.pdb
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\3DProjector.dll.config
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\ApeFree.CodePlus.Algorithm.xml
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\LibUsbDotNet.LibUsbDotNet.pdb
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\OpenCvSharp.xml
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\STTech.CodePlus.xml
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\OpenCvSharp.Extensions.xml
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\System.Memory.xml
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\System.Numerics.Vectors.xml
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\bin\Debug\System.Buffers.xml
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.csproj.AssemblyReference.cache
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.csproj.SuggestedBindingRedirects.cache
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.exe.config
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.MainFrom.resources
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.Properties.Resources.resources
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.View.AutoFrom.resources
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.View.MotionFrom.resources
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.View.MotionStationControl.resources
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.View.PictureShow.resources
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.View.ProjectorFrom.resources
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.csproj.GenerateResource.cache
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.csproj.CoreCompileInputs.cache
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.csproj.Up2Date
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.exe
+C:\程序\DLPPriter - 副本\DLPPriter - 副本\DLPPriter\obj\Debug\DLPPriter.pdb
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.AssemblyReference.cache
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.SuggestedBindingRedirects.cache
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe.config
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.MainFrom.resources
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.Properties.Resources.resources
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.AutoFrom.resources
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionFrom.resources
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionStationControl.resources
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.PictureShow.resources
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.ProjectorFrom.resources
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.GenerateResource.cache
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.CoreCompileInputs.cache
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.pdb
+C:\程序\DLPPriter\DLPPriter\bin\Debug\DLPPriter.exe.config
+C:\程序\DLPPriter\DLPPriter\bin\Debug\DLPPriter.exe
+C:\程序\DLPPriter\DLPPriter\bin\Debug\DLPPriter.pdb
+C:\程序\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.dll
+C:\程序\DLPPriter\DLPPriter\bin\Debug\STTech.CodePlus.dll
+C:\程序\DLPPriter\DLPPriter\bin\Debug\Newtonsoft.Json.dll
+C:\程序\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.Extensions.dll
+C:\程序\DLPPriter\DLPPriter\bin\Debug\System.Memory.dll
+C:\程序\DLPPriter\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\程序\DLPPriter\DLPPriter\bin\Debug\System.Numerics.Vectors.dll
+C:\程序\DLPPriter\DLPPriter\bin\Debug\System.Buffers.dll
+C:\程序\DLPPriter\DLPPriter\bin\Debug\3DProjector.pdb
+C:\程序\DLPPriter\DLPPriter\bin\Debug\3DProjector.dll.config
+C:\程序\DLPPriter\DLPPriter\bin\Debug\ApeFree.CodePlus.Algorithm.xml
+C:\程序\DLPPriter\DLPPriter\bin\Debug\LibUsbDotNet.LibUsbDotNet.pdb
+C:\程序\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.xml
+C:\程序\DLPPriter\DLPPriter\bin\Debug\STTech.CodePlus.xml
+C:\程序\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.Extensions.xml
+C:\程序\DLPPriter\DLPPriter\bin\Debug\System.Memory.xml
+C:\程序\DLPPriter\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\程序\DLPPriter\DLPPriter\bin\Debug\System.Numerics.Vectors.xml
+C:\程序\DLPPriter\DLPPriter\bin\Debug\System.Buffers.xml
+C:\程序\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.Up2Date
+D:\DLPPriter\DLPPriter\bin\Debug\DLPPriter.exe.config
+D:\DLPPriter\DLPPriter\bin\Debug\DLPPriter.exe
+D:\DLPPriter\DLPPriter\bin\Debug\DLPPriter.pdb
+D:\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.dll
+D:\DLPPriter\DLPPriter\bin\Debug\STTech.CodePlus.dll
+D:\DLPPriter\DLPPriter\bin\Debug\Newtonsoft.Json.dll
+D:\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.Extensions.dll
+D:\DLPPriter\DLPPriter\bin\Debug\System.Memory.dll
+D:\DLPPriter\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DLPPriter\DLPPriter\bin\Debug\System.Numerics.Vectors.dll
+D:\DLPPriter\DLPPriter\bin\Debug\System.Buffers.dll
+D:\DLPPriter\DLPPriter\bin\Debug\3DProjector.pdb
+D:\DLPPriter\DLPPriter\bin\Debug\3DProjector.dll.config
+D:\DLPPriter\DLPPriter\bin\Debug\ApeFree.CodePlus.Algorithm.xml
+D:\DLPPriter\DLPPriter\bin\Debug\LibUsbDotNet.LibUsbDotNet.pdb
+D:\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.xml
+D:\DLPPriter\DLPPriter\bin\Debug\STTech.CodePlus.xml
+D:\DLPPriter\DLPPriter\bin\Debug\OpenCvSharp.Extensions.xml
+D:\DLPPriter\DLPPriter\bin\Debug\System.Memory.xml
+D:\DLPPriter\DLPPriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\DLPPriter\DLPPriter\bin\Debug\System.Numerics.Vectors.xml
+D:\DLPPriter\DLPPriter\bin\Debug\System.Buffers.xml
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.AssemblyReference.cache
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.SuggestedBindingRedirects.cache
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe.config
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.MainFrom.resources
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.Properties.Resources.resources
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.AutoFrom.resources
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionFrom.resources
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.MotionStationControl.resources
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.PictureShow.resources
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.View.ProjectorFrom.resources
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.GenerateResource.cache
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.CoreCompileInputs.cache
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.csproj.Up2Date
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.exe
+D:\DLPPriter\DLPPriter\obj\Debug\DLPPriter.pdb

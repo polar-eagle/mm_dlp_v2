@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<MotionCardCount>
+		<Count>1</Count>
+	</MotionCardCount>
+	<IpAdress>
+		<Card1>192.168.1.30</Card1>
+	</IpAdress>
+	<IOCOM>
+		<ComName>COM3</ComName>
+	</IOCOM>
+	<ProJector>
+		<VendorID>C251</VendorID>
+		<ProductID>1706</ProductID>
+	</ProJector>
+</Config>

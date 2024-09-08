@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DLPPriter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DD3E1B-3026-48C6-9778-EC207C8427E4}|DLPPriter\\DLPPriter.csproj|d:\\dlppriter\\dlppriter\\worksystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DD3E1B-3026-48C6-9778-EC207C8427E4}|DLPPriter\\DLPPriter.csproj|solutionrelative:dlppriter\\worksystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DD3E1B-3026-48C6-9778-EC207C8427E4}|DLPPriter\\DLPPriter.csproj|d:\\dlppriter\\dlppriter\\mainfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DD3E1B-3026-48C6-9778-EC207C8427E4}|DLPPriter\\DLPPriter.csproj|solutionrelative:dlppriter\\mainfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DD3E1B-3026-48C6-9778-EC207C8427E4}|DLPPriter\\DLPPriter.csproj|D:\\DLPPriter\\dlppriter\\axis\\com.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DD3E1B-3026-48C6-9778-EC207C8427E4}|DLPPriter\\DLPPriter.csproj|solutionrelative:dlppriter\\axis\\com.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DD3E1B-3026-48C6-9778-EC207C8427E4}|DLPPriter\\DLPPriter.csproj|D:\\DLPPriter\\dlppriter\\view\\autofrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DD3E1B-3026-48C6-9778-EC207C8427E4}|DLPPriter\\DLPPriter.csproj|solutionrelative:dlppriter\\view\\autofrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkSystem.cs",
+              "DocumentMoniker": "D:\\DLPPriter\\DLPPriter\\WorkSystem.cs",
+              "RelativeDocumentMoniker": "DLPPriter\\WorkSystem.cs",
+              "ToolTip": "D:\\DLPPriter\\DLPPriter\\WorkSystem.cs",
+              "RelativeToolTip": "DLPPriter\\WorkSystem.cs",
+              "ViewState": "AQIAACMGAAAAAAAAAAAiwDwGAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T09:36:29.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "COM.cs",
+              "DocumentMoniker": "D:\\DLPPriter\\DLPPriter\\AXIS\\COM.cs",
+              "RelativeDocumentMoniker": "DLPPriter\\AXIS\\COM.cs",
+              "ToolTip": "D:\\DLPPriter\\DLPPriter\\AXIS\\COM.cs",
+              "RelativeToolTip": "DLPPriter\\AXIS\\COM.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAnwDMAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T06:06:32.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainFrom.cs",
+              "DocumentMoniker": "D:\\DLPPriter\\DLPPriter\\MainFrom.cs",
+              "RelativeDocumentMoniker": "DLPPriter\\MainFrom.cs",
+              "ToolTip": "D:\\DLPPriter\\DLPPriter\\MainFrom.cs",
+              "RelativeToolTip": "DLPPriter\\MainFrom.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAIwBEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T06:04:51.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoFrom.cs",
+              "DocumentMoniker": "D:\\DLPPriter\\DLPPriter\\View\\AutoFrom.cs",
+              "RelativeDocumentMoniker": "DLPPriter\\View\\AutoFrom.cs",
+              "ToolTip": "D:\\DLPPriter\\DLPPriter\\View\\AutoFrom.cs",
+              "RelativeToolTip": "DLPPriter\\View\\AutoFrom.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAAwG4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T06:03:13.799Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

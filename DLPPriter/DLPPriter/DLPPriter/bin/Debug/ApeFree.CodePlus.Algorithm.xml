@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApeFree.CodePlus.Algorithm</name>
+    </assembly>
+    <members>
+        <member name="T:ApeFree.CodePlus.Algorithm.CRC.Crc">
+            <summary>
+            CRC algorithm.
+            </summary>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.CRC.Crc.Model">
+            <summary>
+            Gets the CRC algorithm model.
+            </summary>
+            <value>The CRC algorithm model.</value>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.CRC.Crc.LookupTable">
+            <summary>
+            Gets the lookup table used in calculating check values.
+            </summary>
+            <value>The lookup table.</value>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.CRC.Crc.#ctor(ApeFree.CodePlus.Algorithm.CRC.CrcModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ApeFree.CodePlus.Algorithm.CRC.Crc"/> class.
+            </summary>
+            <param name="model">CRC algorithm model.</param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.CRC.Crc.Calculate(System.Byte[])">
+            <summary>
+            以字节数组的形式计算CRC检查值
+            Calculates the CRC check value as a byte array.
+            </summary>
+            <returns>The CRC check value as a byte array.</returns>
+            <param name="data">Data to compute the check value of.</param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.CRC.Crc.GenerateLookupTable">
+            <summary>
+            使用CRC算法模型生成查找表
+            Generates the lookup table using the CRC algorithm model.
+            </summary>
+            <returns>The lookup table.</returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.CRC.Crc.ReflectBits(System.UInt64,System.Int32)">
+            <summary>
+            Reflects the bits of a provided numeric value.
+            </summary>
+            <returns>Bit-reflected version of the provided numeric value.</returns>
+            <param name="b">Value to reflect the bits of.</param>
+            <param name="bitCount">Number of bits in the provided value.</param>
+        </member>
+        <member name="T:ApeFree.CodePlus.Algorithm.CRC.CrcModel">
+            <summary>
+            CRC algorithm parameters.
+            </summary>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.CRC.CrcModel.Width">
+            <summary>
+            Gets the width of the CRC algorithm in bits.
+            </summary>
+            <value>The width of the CRC algorithm in bits.</value>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.CRC.CrcModel.Polynomial">
+            <summary>
+            Gets the polynomial of the CRC algorithm.
+            </summary>
+            <value>The polynomial of the CRC algorithm.</value>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.CRC.CrcModel.InitialValue">
+            <summary>
+            Gets the initial value used in the computation of the CRC check value.
+            </summary>
+            <value>The initial value used in the computation of the CRC check value.</value>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.CRC.CrcModel.XorOutValue">
+            <summary>
+            Gets the value which is XORed to the final computed value before returning the check value.
+            </summary>
+            <value>The value which is XORed to the final computed value before returning the check value.</value>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.CRC.CrcModel.ReflectIn">
+            <summary>
+            Gets a value indicating whether bytes are reflected before being processed.
+            </summary>
+            <value><c>true</c> if each byte is to be reflected before being processed; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.CRC.CrcModel.ReflectOut">
+            <summary>
+            Gets a value indicating whether the final computed value is reflected before the XOR stage.
+            </summary>
+            <value><c>true</c> if the final computed value is reflected before the XOR stage; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.CRC.CrcModel.#ctor(System.Int32,System.UInt64,System.UInt64,System.UInt64,System.Boolean,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="!:ApeFree.CrcParameters"/> class.
+            </summary>
+            <param name="width"> Width of the CRC algorithm in bits.</param>
+            <param name="polynomial">Polynomial of the CRC algorithm.</param>
+            <param name="initialValue">Initial value used in the computation of the CRC check value.</param>
+            <param name="xorOutValue">The value which is XORed to the final computed value before returning the check value.</param>
+            <param name="reflectIn">If set to <c>true</c> each byte is to be reflected before being processed.</param>
+            <param name="reflectOut">If set to <c>true</c> the final computed value is reflected before the XOR stage.</param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.CRC.CrcModel.ThrowIfParametersInvalid(System.Int32,System.UInt64,System.UInt64,System.UInt64)">
+            <summary>
+            Verifies if the parameter values are valid.
+            </summary>
+            <param name="width">Width of the CRC algorithm in bits.</param>
+            <param name="polynomial">Polynomial of the CRC algorithm.</param>
+            <param name="initialValue">Initial value used in the computation of the CRC check value.</param>
+            <param name="xorOutValue">The value which is XORed to the final computed value before returning the check value.</param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.Add(`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="collection"></param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.Clear">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.Remove(`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.RemoveAt(System.Int32)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.Insert(System.Int32,`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="index"></param>
+            <param name="item"></param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="index"></param>
+            <param name="collection"></param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.IndexOf(`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.Contains(`0)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.CopyTo(`0[],System.Int32)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <param name="array"></param>
+            <param name="arrayIndex"></param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.GetEnumerator">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.EventableList`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ApeFree.CodePlus.Algorithm.DataStructure.ListItemsChangedEventArgs`1">
+            <summary>
+            列表项发生变更时的事件参数
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.DataStructure.ListItemsChangedEventArgs`1.Item">
+            <summary>
+            变更项
+            </summary>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.DataStructure.ListItemsChangedEventArgs`1.Position">
+            <summary>
+            变更的位置
+            </summary>
+        </member>
+        <member name="T:ApeFree.CodePlus.Algorithm.DataStructure.IBinaryTree`1">
+            <summary>
+            二叉树接口
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTree`1">
+            <summary>
+            二叉树
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTree`1.RootNode">
+            <summary>
+            根节点
+            </summary>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTree`1.#ctor">
+            <summary>
+            二叉树构造方法
+            </summary>
+            <exception cref="T:System.InvalidOperationException">非继承于<see cref="T:System.IComparable"/>的类型需要指定主键选择器</exception>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTree`1.#ctor(System.Func{`0,System.IComparable})">
+            <summary>
+            二叉树构造方法
+            </summary>
+            <param name="keySelector">主键选择器，用于确定泛型所代指的类型中可作为唯一标识的属性</param>
+            <exception cref="T:System.ArgumentNullException">主键选择器不可为空</exception>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTree`1.Add(`0)">
+            <summary>
+            添加
+            </summary>
+            <param name="newValue"></param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTree`1.Find(System.IComparable,`0@)">
+            <summary>
+            通过主键查找
+            </summary>
+            <param name="key">主键</param>
+            <param name="value">返回结果</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTree`1.PreorderTraversal">
+            <summary>
+            前序遍历
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTree`1.SequentialTraversal">
+            <summary>
+            中序遍历
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTree`1.PostOrderTraversal">
+            <summary>
+            后序遍历
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTreeNode`1">
+            <summary>
+            二叉树节点
+            </summary>
+            <typeparam name="V"></typeparam>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTreeNode`1.#ctor(`0,System.Func{`0,System.IComparable})">
+            <summary>
+            二叉树节点构造方法
+            </summary>
+            <param name="value">有效数据</param>
+            <param name="keySelector">键选择器</param>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTreeNode`1.Add(`0)">
+            <summary>
+            添加新值
+            </summary>
+            <param name="newValue"></param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTreeNode`1.Find(System.IComparable)">
+            <summary>
+            通过主键查找节点
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTreeNode`1.DepthFirstTravel">
+            <summary>
+            深度优先遍历
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApeFree.CodePlus.Algorithm.DataStructure.BinaryTreeNode`1.BreadthFirstTravel">
+            <summary>
+            广度优先遍历
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

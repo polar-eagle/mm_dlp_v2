@@ -1,0 +1,26 @@
+出现应用程序未处理的异常:2024/9/7 16:29:34
+异常类型:IndexOutOfRangeException
+异常信息:索引超出了数组界限。
+异常信息:   在 DLPPriter.MainFrom.MainFrom_Load(Object sender, EventArgs e) 位置 D:\DLPPriter\DLPPriter\MainFrom.cs:行号 83
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+------------------------------------------------
+出现应用程序未处理的异常:2024/9/7 16:30:00
+异常类型:IndexOutOfRangeException
+异常信息:索引超出了数组界限。
+异常信息:   在 DLPPriter.MainFrom.MainFrom_Load(Object sender, EventArgs e) 位置 D:\DLPPriter\DLPPriter\MainFrom.cs:行号 83
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+------------------------------------------------
