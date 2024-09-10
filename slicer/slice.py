@@ -146,9 +146,8 @@ class sliceThread(QThread):
             self.config['drop_time_bottom'] if layer < self.config['drop_layers_bottom'] else self.config['drop_time_standard']))
 
             if self.config['ASS'] and self.change_cnt > self.config['ASS_times']:
-                f.write('ASS output %d\n' % ((self.config['clean_height'] - self.config['clean_tank_height']) * self.config[
-                    'ASS_volume_per_h'] + 10))
-                f.write('ASS input %d\n'%((self.config['clean_height']-self.config['clean_tank_height'])*self.config['ASS_volume_per_h']))
+                f.write('ASS output %d\n' % (self.config['ASS_volume'] + 100))
+                f.write('ASS input %d\n'% (self.config['ASS_volume']))
             # --------清洗---------
             f.write('tank %d\n' % self.config['clean_tank'])
             f.write('clean open\n')
