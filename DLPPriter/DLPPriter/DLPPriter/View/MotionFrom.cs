@@ -257,37 +257,6 @@ namespace DLPPriter.View
         }
 
 
-        private void AxisRelMove(object sender, double acc, double dec, double speed, double pos, WorkSystem.CallBackFunction callBack)
-        {
-            try
-            {
-                MotionStationControl motionStation = sender as MotionStationControl;
-                if (motionStation != null)
-                {
-                    if (motionStation.Axisname == Enum.GetName(typeof(AxisID), AxisID.RMotor))
-                    {
-                        if (Math.Abs( WorkSystem.GetAxisStatus(ID.AxisID.ZUP).Position - (-160)) < 0.1 && Math.Abs( WorkSystem.GetAxisStatus(ID.AxisID.ZDown).Position - (-50)) < 0.1)
-                        {
-                            WorkSystem.AsyncAxisRelMove((AxisID)Enum.Parse(typeof(AxisID), motionStation.Axisname), pos, acc, dec, speed, callBack);
-                        }
-                        else
-                        {
-                            ToolTipBox.Instance.WarnShowDialog($"若使转盘转动请先将ZUP轴和ZDown轴移动到零点！");
-                        }
-                    }
-                    else
-                    {
-                        WorkSystem.AsyncAxisRelMove((AxisID)Enum.Parse(typeof(AxisID), motionStation.Axisname), pos, acc, dec, speed, callBack);
-                    }
-                }
-            }
-            catch(Exception ex)
-            {
-                ToolTipBox.Instance.WarnShowDialog($"对执行器进行相对运动时出现错误异常\r\n{ex.Message}\r\n{ex.StackTrace}");
-            }
-        }
-
-
         private void AxisAbsMove(object sender, double acc, double dec, double speed, double pos, WorkSystem.CallBackFunction callBack)
         {
             try
@@ -694,7 +663,7 @@ namespace DLPPriter.View
                     break;
                 case "转台":
                     double SerialNumber = Math.Min(Math.Round(((-WorkSystem.GetAxisStatus(AxisID.RMotor).Position) / (360 / 5)) + 1), 4);
-                    if(SerialNumber <= 5.5)
+                    if(SerialNumber <= 5.6)
                     {
                         double pos = SerialNumber * (360 / 5);
                         WorkSystem.AxisAbsMove(AxisID.ZUP, -160);

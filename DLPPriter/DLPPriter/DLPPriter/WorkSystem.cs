@@ -593,7 +593,7 @@ namespace DLPPriter
                     {
                         return;
                     }
-                    if (Math.Abs(motion.Position - pos) < 0.1)
+                    if (Math.Abs(motion.Position - pos) < 0.001)
                         return;
                     Thread.Sleep(100);
                 }
@@ -676,7 +676,7 @@ namespace DLPPriter
                     {
                         return;
                     }
-                    if (Math.Abs(motion.Position - pos) < 0.1)
+                    if (Math.Abs(motion.Position - pos) < 0.001)
                         return;
                     Thread.Sleep(100);
                 }
@@ -718,99 +718,6 @@ namespace DLPPriter
                 catch(Exception ex)
                 {
                     ToolTipBox.Instance.WarnShowDialog($"对{axisname}执行器进行异步绝对位置定位移动时出现错误异常\r\n{ex.Message}\r\n{ex.StackTrace}");
-                    callBack?.Invoke();
-                }
-            });
-        }
-
-        /// <summary>
-        /// 指定执行器进行相对位置位移移动
-        /// </summary>
-        /// <param name="axisname">自定义执行器名称</param>
-        /// <param name="relpos">相对位移距离</param>
-        /// <param name="acc">加速度</param>
-        /// <param name="dec">减速度</param>
-        /// <param name="speed">速度</param>
-        /// <param name="isblock">是否检测机床停止及暂停</param>
-        /// <param name="timeout">超时时间</param>
-        public static void AxisRelMove(Enum axisname, double relpos, double acc, double dec, double speed, bool isblock = false, int timeout = -1)
-        {
-            try
-            {
-                if (MotionInstructionDic.Count == 0 && !MotionInfoDic.ContainsKey(axisname)) return;
-                if (isblock)
-                {
-                    if (IsManualPause) ManualPause.WaitOne();
-                    if (IsManualStop) return;
-                }
-                MotionStationinfo motion = GetAxisStatus(axisname);
-                double pos = motion.Position + relpos;
-                AxisMove(axisname, acc, dec, speed, pos);
-                timeout = timeout < 0 ? int.MaxValue : timeout;
-                int i = 0;
-                while(i++ < timeout)
-                {
-                    //if (isblock)
-                    //{
-                    //    if (IsManualStop)
-                    //    {
-                    //        MotorONOFF(axisname, false);
-                    //        return;
-                    //    }
-                    //    if (IsManualPause)
-                    //    {
-                    //        MotorONOFF(axisname, false);
-                    //        ManualPause.WaitOne();
-                    //        MotorONOFF(axisname, true);
-                    //        AxisMove(axisname, acc, dec, speed, pos);
-                    //    }
-                    //}
-                    motion = GetAxisStatus(axisname);
-                    if (!motion.IsOnline || !motion.Enabled || MotionInstructionDic[MotionInfoDic[axisname].IpAddress].Errcode.FirstOrDefault(q => q.Value == motion.Errorcode).Key != "0000")
-                    {
-                        return;
-                    }
-                    if (Math.Abs(motion.Position - pos) < 0.1)
-                        return;
-                    Thread.Sleep(100);
-                }
-            }
-            catch(Exception ex)
-            {
-                ToolTipBox.Instance.WarnShowDialog($"对{axisname}执行器进行相对移动位移时出现错误异常\r\n{ex.Message}\r\n{ex.StackTrace}");
-            }
-        }
-
-        /// <summary>
-        /// 指定执行器进行异步相对移动位移
-        /// </summary>
-        /// <param name="axisname">自定义执行器名称</param>
-        /// <param name="relpos">相对位移间距</param>
-        /// <param name="acc">加速度</param>
-        /// <param name="dec">减速度</param>
-        /// <param name="speed">速度</param>
-        /// <param name="callBack">回调函数</param>
-        /// <param name="isblock">是否检测机床停止及暂停</param>
-        /// <param name="timeout">超时时间</param>
-        /// <returns></returns>
-        public async static Task AsyncAxisRelMove(Enum axisname, double relpos, double acc, double dec, double speed, CallBackFunction callBack, bool isblock = false, int timeout = -1)
-        {
-            await Task.Run(() =>
-            {
-                try
-                {
-                    if (MotionInstructionDic.Count == 0 && !MotionInfoDic.ContainsKey(axisname)) return;
-                    if (isblock)
-                    {
-                        if (IsManualPause) ManualPause.WaitOne();
-                        if (IsManualStop) return;
-                    }
-                    AxisRelMove(axisname, relpos, acc, dec, speed, isblock, timeout);
-                    callBack?.Invoke();
-                }
-                catch(Exception ex)
-                {
-                    ToolTipBox.Instance.WarnShowDialog($"对{axisname}执行器进行异步相对移动位移时出现错误异常\r\n{ex.Message}\r\n{ex.StackTrace}");
                     callBack?.Invoke();
                 }
             });
@@ -923,47 +830,6 @@ namespace DLPPriter
             });
         }
 
-        /// <summary>
-        /// 酒精废料流出的电磁阀开关
-        /// </summary>
-        /// <param name="comid"></param>
-        /// <param name="isopen">打开/关闭</param>
-        public static void AlcoholSolenoidOpenClose(Enum comid, bool isopen, int count)
-        {
-            try
-            {
-                if (ComInfoDic.ContainsKey(comid) && ComInfoDic.Count > 0 && ComRunDic.Count > 0)
-                {
-                    for(int i = 0; i < count; i++)
-                    {
-                        ComRunDic[ComInfoDic[comid]].SendCom(isopen ? 'm' : 'n');
-                    }
-                }
-            }
-            catch(Exception ex)
-            {
-                ToolTipBox.Instance.WarnShowDialog($"酒精废料流出的电磁阀开关时出现错误异常\r\n{ex.Message}\r\n{ex.StackTrace}");
-            }
-        }
-
-
-        public async static Task AsyncAlcoholSolenoidOpenClose(Enum comid, bool isopen, int count, CallBackFunction callBack)
-        {
-            await Task.Run(() =>
-            {
-                try
-                {
-                    AlcoholSolenoidOpenClose(comid, isopen, count);
-                    callBack?.Invoke();
-                }
-                catch (Exception ex)
-                {
-                    ToolTipBox.Instance.WarnShowDialog($"异步酒精废料流出的电磁阀开关时出现错误异常\r\n{ex.Message}\r\n{ex.StackTrace}");
-                    callBack?.Invoke();
-                }
-            });
-        }
-
 
         /// <summary>
         /// 材料1进行送入回流
@@ -980,10 +846,12 @@ namespace DLPPriter
                     WorkSystem.AxisAbsMove(AxisID.ZUP, -160);
                     WorkSystem.AxisAbsMove(AxisID.ZDown, -50);
                     WorkSystem.AxisAbsMove(AxisID.RMotor, -(2.5 * (360 / 5)));
-                    for(int i = 0; i < count; i++)
+                    ComRunDic[ComInfoDic[comid]].SendCom('e');
+                    for (int i = 0; i < count; i++)
                     {
-                        ComRunDic[ComInfoDic[comid]].SendCom(idfeed ? 'e' : 'f');
+                        ComRunDic[ComInfoDic[comid]].SendCom(idfeed ? 'g' : 'h');
                     }
+                    ComRunDic[ComInfoDic[comid]].SendCom('f');
                 }
             }
             catch(Exception ex)
@@ -1024,10 +892,12 @@ namespace DLPPriter
                     WorkSystem.AxisAbsMove(AxisID.ZUP, -160);
                     WorkSystem.AxisAbsMove(AxisID.ZDown, -50);
                     WorkSystem.AxisAbsMove(AxisID.RMotor, -(3.5 * (360 / 5)));
+                    ComRunDic[ComInfoDic[comid]].SendCom('e');
                     for (int i = 0; i < count; i++)
                     {
-                        ComRunDic[ComInfoDic[comid]].SendCom(isfeed ? 'g' : 'h');
+                        ComRunDic[ComInfoDic[comid]].SendCom(isfeed ? 'i' : 'j');
                     }
+                    ComRunDic[ComInfoDic[comid]].SendCom('f');
                 }
             }
             catch (Exception ex)
@@ -1068,10 +938,13 @@ namespace DLPPriter
                     WorkSystem.AxisAbsMove(AxisID.ZUP, -160);
                     WorkSystem.AxisAbsMove(AxisID.ZDown, -50);
                     WorkSystem.AxisAbsMove(AxisID.RMotor, -(4.5 * (360 / 5)));
+                    ComRunDic[ComInfoDic[comid]].SendCom('e');
                     for (int i = 0; i < count; i++)
                     {
-                        ComRunDic[ComInfoDic[comid]].SendCom(isfeed ? 'i' : 'j');
+                        ComRunDic[ComInfoDic[comid]].SendCom(isfeed ? 'k' : 'l');
                     }
+                    ComRunDic[ComInfoDic[comid]].SendCom('f');
+
                 }
             }
             catch (Exception ex)
@@ -1110,10 +983,12 @@ namespace DLPPriter
             {
                 if (ComInfoDic.ContainsKey(comid) && ComInfoDic.Count > 0 && ComRunDic.Count > 0)
                 {
+                    ComRunDic[ComInfoDic[comid]].SendCom('m');
                     for (int i = 0; i < count; i++)
                     {
-                        ComRunDic[ComInfoDic[comid]].SendCom(isfeed ? 'k' : 'l');
+                        ComRunDic[ComInfoDic[comid]].SendCom(isfeed ? 'o' : 'p');
                     }
+                    ComRunDic[ComInfoDic[comid]].SendCom('n');
                 }
             }
             catch (Exception ex)
@@ -1138,23 +1013,6 @@ namespace DLPPriter
                     callBack?.Invoke();
                 }
             });
-        }
-
-        /// <summary>
-        /// 全部回流
-        /// </summary>
-        /// <param name="comid"></param>
-        public static void BackFlow(Enum comid)
-        {
-            try
-            {
-                if (ComInfoDic.ContainsKey(comid) && ComInfoDic.Count > 0 && ComRunDic.Count > 0) 
-                    ComRunDic[ComInfoDic[comid]].SendCom('o');
-            }
-            catch (Exception ex)
-            {
-                ToolTipBox.Instance.WarnShowDialog($"全部回流时出现错误异常\r\n{ex.Message}\r\n{ex.StackTrace}");
-            }
         }
 
 
@@ -1655,9 +1513,6 @@ namespace DLPPriter
                                         AxisAbsMove(AxisID.RMotor, -((int)RMtoroProjectID.风干 * (360 / 5)), true);
                                         break;
                                 }
-                                break;
-                            case "backflow":
-                                BackFlow(ComID.IOCard);
                                 break;
                         }
                     } while (!sr.EndOfStream);
